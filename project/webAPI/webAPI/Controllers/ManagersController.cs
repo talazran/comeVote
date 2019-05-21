@@ -107,13 +107,12 @@ namespace webAPI.Controllers
             //return CreatedAtRoute("DefaultApi", new { id = cityManager.MIdentity }, cityManager);
         }
 
-        [HttpGet]
-        [Route("votersResulst")]
-        public IEnumerable<Factions> VotersResulst()//צפייה בתוצאות ספירת קולות
-        {
-            return null;
-            //   return db.Factions.SelectMany()//לחפש פונקציה שמחזירה שני ערכים בלבד טבלה אחת
-        }
+        //[HttpGet]
+        //[Route("votersResulst")]
+        //public IEnumerable<Factions> VotersResulst()//צפייה בתוצאות ספירת קולות
+        //{
+            
+        //}
 
         
         //בדיקת הפונקציה
@@ -159,7 +158,6 @@ namespace webAPI.Controllers
 
 
         #endregion
-
 
         #region מנהל עיר
         // GET api/<controller>
@@ -220,16 +218,15 @@ namespace webAPI.Controllers
         #endregion
 
         #region מנהל קלפי
-
-        //[ResponseType(typeof(City))]
-        //public IHttpActionResult GetTZnationalForBallotBox(int balotBox, string tz)//מחזיר את תעודות הזהות לפי מספר קלפי שנשמר במשתנה 
-        //                                                                          //כאשר מנהל הקלפי נכנס
-
-        //לחפש אם תעודת הזהות נמצאת במאגר כולו ואח''כ לבדוק אם 
-        //מספר הקלפי של המנהל ששוה לעיר שבה נמצאת תעודת הזהות 
-        //ורק אז להחזיר את שמו של האזרח 
-        //אם שמו הוחזר סימן שכל הנתונים תואמים
-
+        [HttpGet]
+        [Route("getNational/{tz:string}")]
+        public IQueryable<National> GetNational(string tz) 
+        {
+            var q = from m in db.National
+                    where m.Identity.Equals(tz)
+                    select m;
+            return q;
+        }
         #endregion
     }
 }

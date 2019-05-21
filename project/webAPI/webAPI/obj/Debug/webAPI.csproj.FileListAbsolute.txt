@@ -52,3 +52,7 @@ C:\Users\Tal\Desktop\project\webAPI\webAPI\obj\Debug\webAPI.csprojResolveAssembl
 C:\Users\Tal\Desktop\project\webAPI\webAPI\obj\Debug\webAPI.csproj.CoreCompileInputs.cache
 C:\Users\Tal\Desktop\project\webAPI\webAPI\obj\Debug\webAPI.dll
 C:\Users\Tal\Desktop\project\webAPI\webAPI\obj\Debug\webAPI.pdb
+C:\Users\Tal\Desktop\vote\comeVote\project\webAPI\webAPI\obj\Debug\webAPI.csprojResolveAssemblyReference.cache
+C:\Users\Tal\Desktop\vote\comeVote\project\webAPI\webAPI\obj\Debug\webAPI.csproj.CoreCompileInputs.cache
+C:\Users\Tal\Desktop\vote\comeVote\project\webAPI\webAPI\obj\Debug\webAPI.dll
+C:\Users\Tal\Desktop\vote\comeVote\project\webAPI\webAPI\obj\Debug\webAPI.pdb

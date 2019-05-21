@@ -9,3 +9,14 @@ C:\Users\Tal\Desktop\project\webAPI\DAL\obj\Debug\DAL.csprojResolveAssemblyRefer
 C:\Users\Tal\Desktop\project\webAPI\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
 C:\Users\Tal\Desktop\project\webAPI\DAL\obj\Debug\DAL.dll
 C:\Users\Tal\Desktop\project\webAPI\DAL\obj\Debug\DAL.pdb
+C:\Users\Tal\Desktop\vote\comeVote\project\webAPI\DAL\bin\Debug\DAL.dll.config
+C:\Users\Tal\Desktop\vote\comeVote\project\webAPI\DAL\bin\Debug\DAL.dll
+C:\Users\Tal\Desktop\vote\comeVote\project\webAPI\DAL\bin\Debug\DAL.pdb
+C:\Users\Tal\Desktop\vote\comeVote\project\webAPI\DAL\bin\Debug\EntityFramework.dll
+C:\Users\Tal\Desktop\vote\comeVote\project\webAPI\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Tal\Desktop\vote\comeVote\project\webAPI\DAL\bin\Debug\EntityFramework.xml
+C:\Users\Tal\Desktop\vote\comeVote\project\webAPI\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Tal\Desktop\vote\comeVote\project\webAPI\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\Tal\Desktop\vote\comeVote\project\webAPI\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Tal\Desktop\vote\comeVote\project\webAPI\DAL\obj\Debug\DAL.dll
+C:\Users\Tal\Desktop\vote\comeVote\project\webAPI\DAL\obj\Debug\DAL.pdb
