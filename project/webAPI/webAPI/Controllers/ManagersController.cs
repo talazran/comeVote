@@ -219,6 +219,7 @@ namespace webAPI.Controllers
 
         #region מנהל קלפי
         [HttpGet]
+        //מחזיר אובייקט של אזרח על פי תעודת זהות
         [Route("getNational/{tz:string}")]
         public IQueryable<National> GetNational(string tz) 
         {
@@ -228,6 +229,23 @@ namespace webAPI.Controllers
             return q;
         }
 
+        [HttpPut]
+        [ResponseType(typeof(void))]
+        public IHttpActionResult PutNationalToChoose(string identity)
+        {
+         
+            var q = from m in db.National
+                    where m.Identity.Equals(identity)
+                    select new { m.IsChoose};
+            
+            if (q.Equals(0))
+            {
+                National n = new National();
+                n.IsChoose=true;
+                return Ok();
+            }
+            return NotFound();
+        }
 
         #endregion
     }
