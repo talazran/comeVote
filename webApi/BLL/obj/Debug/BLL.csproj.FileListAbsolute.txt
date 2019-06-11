@@ -1,0 +1,6 @@
+C:\Users\Tal\Desktop\vote\comeVote\project\webAPI\BLL\bin\Debug\BLL.dll
+C:\Users\Tal\Desktop\vote\comeVote\project\webAPI\BLL\bin\Debug\BLL.pdb
+C:\Users\Tal\Desktop\vote\comeVote\project\webAPI\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\Tal\Desktop\vote\comeVote\project\webAPI\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\Tal\Desktop\vote\comeVote\project\webAPI\BLL\obj\Debug\BLL.dll
+C:\Users\Tal\Desktop\vote\comeVote\project\webAPI\BLL\obj\Debug\BLL.pdb
